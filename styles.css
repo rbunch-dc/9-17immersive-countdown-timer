@@ -1,0 +1,30 @@
+body{
+	background: url('convocation1.jpg') no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	/* text-align centers my children inside of me */
+	text-align: center;
+	/* margin auto centers me inside my parent */
+	color: #DAA520;
+
+}
+
+h1{
+	font-size: 40px;
+	margin: 40px 0px 0px;
+}
+
+#timer-div{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.time-unit, .time-unit span{	
+	/* make our spans inline-block */
+	display: inline-block;
+	padding: 10px;
+	background-color: #D2691E;
+	border-radius: 5px;
+	border: 1px solid #8B4513;
+}
